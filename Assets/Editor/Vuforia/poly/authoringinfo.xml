@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.21.3">
+<ModelTarget name="poly" targetId="381365c2b9c4414e8e8b62c341d8cf1c" version="14.0" toolVersion="10.21.3" bbox="-0.394041 -0.000383 -0.358466 0.390870 0.754649 0.367069" previewImage="381365c2b9c4414e8e8b62c341d8cf1c_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="polys_assembly" assemblyId="ccc03b67b6f64284b961c8fe97a5b622">
+<Part name="poly" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.00435872 0.332152 0.989962" rotation="AD: -0.911888 0.470111 1.88172 192.135" image="poly_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

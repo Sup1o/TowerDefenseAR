@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="poly" motionHint="adaptive" trackingMode="scan" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="polys_assembly" assemblyId="ccc03b67b6f64284b961c8fe97a5b622">
+<Part name="poly" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.00435872 0.332152 0.989962" rotation="AD: -0.911888 0.470111 1.88172 192.135" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
