@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
-    <Tracking>
-        <ModelTarget name="FAN" trackingMode="scan" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"></ModelTarget>
-    </Tracking>
-    <Assembly name="FAN" assemblyId="211254cd957744e68d6858b4bda83db2">
-        <Part name="FAN" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
-        <EntryPoint name="(none)" trained="yes"></EntryPoint>
-    </Assembly>
+  <Tracking>
+    <ImageTarget name="Marth7" size="0.010000 0.017667" />
+    <ImageTarget name="Topaz" size="0.010000 0.017667" />
+    <ImageTarget name="Bronya" size="0.010000 0.017667" />
+    <ImageTarget name="YingYuan" size="0.010000 0.017670" />
+  </Tracking>
 </QCARConfig>
