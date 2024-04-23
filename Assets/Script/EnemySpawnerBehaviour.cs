@@ -22,7 +22,7 @@ public class EnemySpawnerBehaviour : MonoBehaviour
     {
         for (int i = 0; i < numberOfEnemies; i++)
         {
-            SpawnSingleEnemy(0.5f);
+            SpawnSingleEnemy(0.3f);
             yield return new WaitForSeconds(1);
         }
     }

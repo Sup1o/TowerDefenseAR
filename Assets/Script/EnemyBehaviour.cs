@@ -6,7 +6,7 @@ public class EnemyBehaviour : MonoBehaviour
 {
     public Transform Target;
     public GameObject[] DestroyEffect;
-    public float speed = 0.5f;
+    public float speed = 0.01f;
     void Start()
     {
 
