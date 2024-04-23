@@ -6,6 +6,7 @@ public class EnemyBehaviour : MonoBehaviour
 {
     public Transform Target;
     public GameObject[] DestroyEffect;
+    public float speed = 0.5f;
     void Start()
     {
 
@@ -17,7 +18,7 @@ public class EnemyBehaviour : MonoBehaviour
         if (Target != null)
         {
             transform.LookAt(Target);
-            transform.Translate(Vector3.forward * Time.deltaTime);
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
     }
 

@@ -15,25 +15,25 @@ public class EnemySpawnerBehaviour : MonoBehaviour
         float xPrime = centerX + radius * Mathf.Cos(angle);
         float zPrime = centerZ + radius * Mathf.Sin(angle);
 
-        return new Vector3(xPrime, 5, zPrime);
+        return new Vector3(xPrime, Target.position.y, zPrime);
     }
 
     public IEnumerator SpawnEnemy(int numberOfEnemies)
     {
         for (int i = 0; i < numberOfEnemies; i++)
         {
-            SpawnSingleEnemy(20);
+            SpawnSingleEnemy(0.5f);
             yield return new WaitForSeconds(1);
         }
     }
 
-    public void SpawnSingleEnemy(int distantFromCenter)
+    public void SpawnSingleEnemy(float distantFromCenter)
     {
         // Randomly select an enemy prefab from the list
         GameObject enemyPrefab = ListEnemyPrefab[Random.Range(0, ListEnemyPrefab.Length)];
 
         // Randomly select a point on a circle with radius 10
-        Vector3 randomPoint = RandomPointOnCircle(0, 0, distantFromCenter);
+        Vector3 randomPoint = RandomPointOnCircle(Target.position.x, Target.position.z, distantFromCenter);
 
         // Instantiate the enemy prefab at the random point
         GameObject enemy = Instantiate(enemyPrefab, randomPoint, Quaternion.identity);
