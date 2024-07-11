@@ -4,12 +4,12 @@ One key aspect of AR-enabled tower defense games is the utilization of physical 
 <img src="./READMEAsset/Card.png"/>
 <img src="./READMEAsset/Card (2).png"/>
 
-<img src="./READMEAsset/Main.png"/>
-<img src="./READMEAsset/MainS.png"/>
 
-<img src="./READMEAsset/Tow.png"/>
-<img src="./READMEAsset/TowS.png"/>
+|<img src="./READMEAsset/Main.png"/>     | <img src="./READMEAsset/Tow.png"/>    |
+| --- | --- |
+| <img src="./READMEAsset/MainS.png"/> |  <img src="./READMEAsset/TowS.png"/>   |
 
+# Other Gameplay screen shot
 <img src="./READMEAsset/1.png"/>
 <img src="./READMEAsset/2.png"/>
 <img src="./READMEAsset/3.png"/>
